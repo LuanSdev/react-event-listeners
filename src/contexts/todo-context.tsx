@@ -11,8 +11,8 @@ export const TODO_CONTEXT = createContext({} as ContextProps);
 export function TodoProvider({ children }: ProviderProps) {
   const [items, setItems] = useState<TodoItem[]>([]);
 
-  function handleAddTodo(todoName: string) {
-    if (!todoName) return;
+  function handleAddTodo(todoName: string = '') {
+    if (!todoName.trim()) return;
 
     const newTodo = {
       name: todoName,
