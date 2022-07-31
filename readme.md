@@ -28,4 +28,4 @@ npm run dev | yarn dev
 
 <br>
 
-## 📝 <a href="https://medium.com/p/955fefaaabe7/edit">Portuguese Medium article</a>
+## 📝 <a href="https://medium.com/@luang193/react-event-listeners-manipulando-componentes-a-partir-de-eventos-955fefaaabe7">Portuguese Medium article</a>
